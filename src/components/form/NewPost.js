@@ -5,6 +5,8 @@ function NewPost() {
     <input type={type} placeholder={placeholder} />;
   }
 
+  function submit() {}
+
   return (
     <form onSubmit={submit} className={styles.form}>
       <Input type="text" placeholder="Digite seu nome" />
